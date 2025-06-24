@@ -116,6 +116,7 @@ h1{
     justify-content: center;
     margin: 550px auto 0 auto;
     transition: .5s ease-in-out;
+    z-index: 1000;
 }
 @keyframes rotate360 {
     from {
@@ -151,6 +152,7 @@ h1{
     }
     .again{
         margin-top: auto;
+        z-index: 1000;
     }
 }
 @media screen and (max-width: 768px){
@@ -179,6 +181,7 @@ h1{
         width: 80px;
         height: 80px;
         margin: 90% auto 0 auto;
+        z-index: 1000;
     }
 }
 
